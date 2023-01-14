@@ -222,6 +222,10 @@ hr{
       color: #ffffff;
       font-size: 13px;
    }
+   .container {
+      margin-left: 5%;
+      margin-right: 5%;
+   }
    .players {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -251,6 +255,10 @@ hr{
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
+   .container {
+      margin-left: 8%;
+      margin-right: 8%;
+   }
    .thumbnail img{
       height: 80px;
    }
