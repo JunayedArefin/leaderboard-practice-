@@ -20,6 +20,9 @@ nav {
    padding-left: 15%;
    padding-right: 15%;
 }
+.navbar{
+   height: 75px;
+}
 .container {
    background-color: white;
    margin-left: 15%;
@@ -209,6 +212,14 @@ hr{
 }
 
 @media screen and (max-width: 576px) {
+   nav {
+      height: 100px;
+      padding-left: 3%;
+      padding-right: 3%;
+   }
+   .navbar{
+      height: 100px;
+   }
    .menu ul {
       border: 2px solid #ffffff;
       border-radius: 5px;
@@ -260,6 +271,14 @@ hr{
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
+   nav {
+      height: 90px;
+      padding-left: 6%;
+      padding-right: 6%;
+   }
+   .navbar{
+      height: 90px;
+   }
    .container {
       margin-left: 8%;
       margin-right: 8%;
