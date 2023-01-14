@@ -145,19 +145,18 @@ hr{
 }
 .courses{
    display: grid;
-   grid-template-columns: repeat(3,1fr);
+   grid-template-columns: repeat(3,3fr);
    gap: 20px;
    justify-content: center;
 }
 .coursecard{
    background-color: #f5f5f5;
-   margin: 0;
    padding: 10px;
    border: 0;
    border-radius: 15px;
 }
 .coursethumb img{
-   height: 90px;
+   width: 100%;
 }
 .coursetitle h2{
    font-size: 20px;
